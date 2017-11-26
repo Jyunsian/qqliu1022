@@ -8,7 +8,8 @@ h1, h2 {
 }
 
 p { 
-  color : blue; font-size : 14 pt;
+  color : #ffffff; 
+  font-size : 14 pt;
   margin :0 0 50px 0;
   text-align: center;
 }
