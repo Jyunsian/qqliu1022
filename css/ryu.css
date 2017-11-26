@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  color : #FF44AA; font-family: "Helvetica", "Arial", sans-serif;
+  text-align: center;
+}
+
+p { 
+  color : blue; font-size : 14 pt;
+  margin :0 0 50px 0;
+  text-align: center;
+}
+
+
+h1 {
+ border: 5px dotted pink;
+ padding: 20px 50px;
+ display: inline-block;
+}
+
+
+em{
+  color: red;
+  background-color: pink;
+  text-align: center;
+}
+
+a {
+  color: white;
+  display: block;
+  padding:17px;
+}
+
+.button{
+  color: #FFE5EA;
+  background-color: #CC99A2;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 150px;
+  height: 20px;
+}
+
+/*.button p{
+  text-align: center;
+  border:2px solid yellow;
+}
+*/
+
+.call-to-action {
+  font-style: italic;
+  background-color: #FAE232;
+}
+
+.text-align{
+  text-align: center;
+}
+
+#nav{
+  background-color: #FF44AA;
+  width: 100%;
+  border:2px solid #FFE5EA;
+}
+
+.menu li{
+  width:150px;
+  height: 60px;
+  /*padding: 15px 0;*/
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  text-align: center;
+  background-color:#FF44AA;
+  border-radius: 8px; 
+  list-style:none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.menu a{
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: white;
+  border: 2px solid #ffffff;
+}
+
+li:hover a {
+  color: #FF44AA;
+  font-weight: 800;
+}
+
+#button{
+  text-align: center;
+}
+
+
